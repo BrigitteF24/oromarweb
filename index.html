@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Oro Mar - Restaurante Campestre</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&amp;family=Poppins:wght@300;400;500;600&amp;family=Dancing+Script:wght@700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<link href="styles.css" rel="stylesheet"/>
+<link href="presentacion.css" rel="stylesheet"/></head>
+<body>
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+<a href="index.html">
+<img alt="Logo Oro Mar" height="50" src="img/oromar.webp" width="150"/>
+</a>
+<ul class="nav-links" id="navLinks">
+<li><a class="nav-link active" href="#inicio">Inicio</a></li>
+<li><a class="nav-link" href="#carta">Carta</a></li>
+<li><a class="nav-link" href="#galeria">Galería</a></li>
+<li><a class="nav-link" href="#reservas">Reservas</a></li>
+<li><a class="nav-link" href="#nosotros">Nosotros</a></li>
+<li><a class="nav-link" href="#contacto">Contacto</a></li>
+<li></li>
+</ul>
+<button class="hamburger" id="hamburger">
+<span></span><span></span><span></span>
+</button>
+</nav>
+<!-- HERO -->
+<section class="hero" id="inicio">
+<div class="hero-particles" id="particles"></div>
+<div class="hero-overlay"></div>
+<div class="hero-content">
+<p class="hero-eyebrow">🌿 Restaurante Campestre</p>
+<h1 class="hero-title">Sabores que <span class="hero-title-accent">nacen del mar</span></h1>
+<p class="hero-sub">Ingredientes frescos, tradición viva y una vista al campo que nunca olvidarás.</p>
+<div class="hero-cta-group">
+<a class="btn btn-primary" href="#reservas">Conoce nuestras instalaciones</a>
+<a class="btn btn-outline" href="#carta">Ver carta</a>
+</div>
+
+</div>
+<div aria-hidden="true" class="hero-image">
+<img alt="Plato principal Oro Mar" class="hero-food-img" src="img/hero-food.webp"/>
+</div>
+<div class="hero-scroll-indicator">
+<span>Descubre más</span>
+<i class="fas fa-chevron-down bounce"></i>
+</div>
+</section>
+<!-- PROMOCIONES BANNER -->
+
+<!-- REGISTRO DE CLIENTE -->
+
+<!-- CARTA -->
+<section class="carta-section" id="carta">
+<div class="section-header">
+<p class="section-eyebrow">Nuestros Platos</p>
+<h2 class="section-title">La <span class="highlight">Carta</span></h2>
+<p class="section-sub">Platos preparados al momento con el sabor tradicional de Oro Mar.</p>
+</div>
+<div class="carta-tabs">
+<button class="tab-btn active" data-cat="pescados">Pescados y Mariscos</button>
+<button class="tab-btn" data-cat="criollos">Criollos</button>
+</div>
+<div class="carta-grid" id="cartaGrid">
+<!-- PESCADOS Y MARISCOS -->
+<div class="carta-card" data-cat="pescados">
+<div class="carta-img">
+<img alt="Ceviche Mixto" src="img/ceviche-mixto.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Ceviche Mixto</h3>
+<p>Pescado y mariscos frescos marinados con limón, cebolla y ají.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="pescados">
+<div class="carta-img">
+<img alt="Ceviche de Caballa" src="img/ceviche-caballa.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Ceviche de Caballa</h3>
+<p>Caballa fresca preparada con limón, cebolla, ají y culantro.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="pescados">
+<div class="carta-img">
+<img alt="Sudado Parihuela" src="img/sudado-parihuela.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Sudado / Parihuela</h3>
+<p>Caldo criollo concentrado con pescado, mariscos y sazón de casa.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="pescados">
+<div class="carta-img">
+<img alt="Chicharrón de Pescado" src="img/chicharron-pescado.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Chicharrón de Pescado</h3>
+<p>Pescado crocante acompañado con yuca, ensalada y cremas.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="pescados">
+<div class="carta-img">
+<img alt="Arroz con Marsicos" src="img/arroz-mariscos.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Arroz y Chaufa de Marisco</h3>
+<p>Arroz o chaufa preparado con mariscos frescos y sazón especial.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="pescados">
+<div class="carta-img">
+<img alt="Pescado Frito" src="img/pescado-frito.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Pescado Frito</h3>
+<p>Pescado dorado servido con arroz, ensalada y guarnición.</p>
+</div>
+</div>
+<!-- CRIOLLOS -->
+<div class="carta-card" data-cat="criollos" style="display:none">
+<div class="carta-img">
+<img alt="Pato Guisado" src="img/pato-guisado.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Pato Guisado</h3>
+<p>Pato cocido lentamente con aderezo criollo y sabor casero.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="criollos" style="display:none">
+<div class="carta-img">
+<img alt="Arroz con Pato" src="img/arroz-pato.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Arroz con Pato</h3>
+<p>Arroz verde con culantro, cerveza negra y presa de pato.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="criollos" style="display:none">
+<div class="carta-img">
+<img alt="Pollo a la Plancha" src="img/pollo-plancha.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Pollo a la Plancha</h3>
+<p>Pechuga de pollo dorada a la plancha con arroz o ensalada.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="criollos" style="display:none">
+<div class="carta-img">
+<img alt="Chicharrón de Pollo" src="img/chicharron-pollo.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Chicharrón de Pollo</h3>
+<p>Trozos de pollo crocante acompañados con papas y cremas.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="criollos" style="display:none">
+<div class="carta-img">
+<img alt="Milanesa de Pollo" src="img/milanesa-pollo.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Milanesa de Pollo</h3>
+<p>Filete de pollo apanado, dorado y servido con arroz o papas.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="criollos" style="display:none">
+<div class="carta-img">
+<img alt="Lomo Saltado" src="img/lomo-saltado.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Lomo Saltado</h3>
+<p>Lomo salteado con cebolla, tomate, papas fritas y arroz.</p>
+</div>
+</div>
+<div class="carta-card" data-cat="criollos" style="display:none">
+<div class="carta-img">
+<img alt="Chuleta de Chancho" src="img/chuleta-chancho.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+</div>
+<div class="carta-info">
+<h3>Chuleta de Chancho</h3>
+<p>Chuleta dorada y jugosa acompañada con arroz, papas o ensalada.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- GALERÍA -->
+<section class="galeria-section" id="galeria">
+<div class="section-header">
+<p class="section-eyebrow">Galería</p>
+<h2 class="section-title">Momentos <span class="highlight">Inolvidables</span></h2>
+</div>
+<div class="galeria-grid">
+<div class="gal-item gal-big" style="background:linear-gradient(135deg,#0f4c81,#1e90ff)">
+<img alt="Vista al campo" src="img/vista-campo.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+<div class="gal-overlay">
+<p>Vista al campo</p>
+</div>
+</div>
+<div class="gal-item" style="background:linear-gradient(135deg,#7c3f00,#d2691e)">
+<img alt="Presentación de platos" src="img/presentacion-platos.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+<div class="gal-overlay">
+<p>Presentación de platos</p>
+</div>
+</div>
+<div class="gal-item" style="background:linear-gradient(135deg,#1a6b1a,#32cd32)">
+<img alt="Estacionamiento" src="img/estacionamiento.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+<div class="gal-overlay">
+<p>Estacionamiento</p>
+</div>
+</div>
+<div class="gal-item" style="background:linear-gradient(135deg,#800020,#ff6b81)">
+<img alt="Mariscos frescos" src="img/mariscos-frescos.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+<div class="gal-overlay">
+<p>Mariscos frescos</p>
+</div>
+</div>
+<div class="gal-item" style="background:linear-gradient(135deg,#f59e0b,#fbbf24)">
+<img alt="Parrilla en vivo" src="img/parrilla.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+<div class="gal-overlay">
+<p>Parrilla en vivo</p>
+</div>
+</div>
+<div class="gal-item" style="background:linear-gradient(135deg,#6d28d9,#a78bfa)">
+<img alt="Eventos especiales" src="img/eventos.webp" style="width:100%; height:100%; object-fit:cover; display:block;"/>
+<div class="gal-overlay">
+<p>Eventos especiales</p>
+</div>
+</div>
+</div>
+</section>
+<!-- RESERVAS -->
+<section class="reservas-section" id="reservas">
+<div class="reservas-bg"></div>
+<div class="reservas-container">
+<div class="section-header">
+<p class="section-eyebrow" style="color:#fbbf24">Reservaciones</p>
+<h2 class="section-title" style="color:#fff">Asegura tu <span style="color:#fbbf24">mesa</span></h2>
+<p class="section-sub" style="color:rgba(255,255,255,0.7)">Conoce nuestros espacios y consulta directamente sobre mesas y eventos.</p>
+</div>
+<div class="info-static-card"><i class="fas fa-calendar-alt info-static-icon"></i><h3>Visítanos en Oro Mar</h3><p>Disfruta de nuestra carta, espacios campestres y un ambiente ideal para compartir en familia o con amigos.</p><p>Para consultar sobre la disponibilidad de mesas y eventos, comunícate directamente con el restaurante a través de sus canales oficiales.</p><a class="btn btn-primary" href="#contacto">Ver información de contacto</a></div>
+</div>
+</section>
+<!-- NOSOTROS -->
+<section class="nosotros-section" id="nosotros">
+<div class="nosotros-content">
+<div class="nosotros-text">
+<p class="section-eyebrow">Nuestra Historia</p>
+<h2 class="section-title">El corazón de <span class="highlight">Oro Mar</span></h2>
+<p>Nacimos en el corazón de la campiña peruana, donde el aroma del campo se mezcla con la brisa marina. Desde
+          2012, nuestra cocina fusiona los mejores mariscos frescos con la calidez de una gastronomía campestre
+          auténtica.</p>
+<p>Cada plato es una historia: ingredientes traídos directamente de pescadores y agricultores locales,
+          preparados con técnicas que han pasado de generación en generación.</p>
+<div class="valores-grid">
+<div class="valor">
+<span class="valor-icon">🌿</span>
+<div>
+<strong>Ingredientes Frescos</strong>
+<p>Abastecimiento local cada mañana</p>
+</div>
+</div>
+<div class="valor">
+<span class="valor-icon">👨‍🍳</span>
+<div>
+<strong>Chef Especializado</strong>
+<p>15 años de trayectoria gastronómica</p>
+</div>
+</div>
+<div class="valor">
+<span class="valor-icon">🏕️</span>
+<div>
+<strong>Ambiente Único</strong>
+<p>3,000 m² de jardines naturales</p>
+</div>
+</div>
+<div class="valor">
+<span class="valor-icon">🏆</span>
+<div>
+<strong>Premiados</strong>
+<p>Mejor restaurante campestre 2023</p>
+</div>
+</div>
+</div>
+</div>
+<div class="nosotros-visual">
+<div class="nosotros-card-big" style="background:linear-gradient(160deg,#0f4c81,#1e6e9e,#34a56f)">
+<span style="font-size:80px">🌿🦞</span>
+<p>12 años cocinando con alma</p>
+</div>
+<div class="nosotros-card-sm" style="background:linear-gradient(135deg,#f59e0b,#d97706)">
+<span>👨‍🍳</span>
+<p>Chef José Clemente Barboza Vázquez</p>
+</div>
+<div class="nosotros-card-sm" style="background:linear-gradient(135deg,#10b981,#059669)">
+<span>🌱</span>
+<p>Cocina sostenible</p>
+</div>
+</div>
+</div>
+</section>
+<!-- COMENTARIOS -->
+
+<!-- CONTACTO -->
+<section class="contacto-section" id="contacto">
+<div class="section-header">
+<p class="section-eyebrow">Encuéntranos</p>
+<h2 class="section-title">¿Cómo <span class="highlight">llegar?</span></h2>
+</div>
+<div class="contacto-grid">
+<div class="contacto-info">
+<div class="info-item"><i class="fas fa-map-marker-alt"></i>
+<div><strong>Dirección</strong>
+<p>Ctra. Panamericana N 170<br/>Referencia: entrada a Pacanguilla,<br/>La Libertad, Perú</p>
+</div>
+</div>
+
+
+<div class="info-item"><i class="fas fa-clock"></i>
+<div><strong>Horario</strong>
+<p>Lun–Vie: 10:00 – 18:00<br/>Sáb–Dom: 10:00 – 20:00</p>
+</div>
+</div>
+
+</div>
+<div class="contacto-visual-static"><img alt="Ambiente campestre de Oro Mar" loading="lazy" src="img/vista-campo.webp"/><div class="contacto-visual-caption"><strong>Un espacio para disfrutar</strong><p>Sabores tradicionales y ambiente campestre.</p></div></div>
+</div>
+</section>
+<!-- FOOTER -->
+<footer class="footer">
+<div class="footer-content">
+<div class="footer-brand">
+<a href="index.html">
+<img alt="Logo" src="img/oromar.webp" width="150"/>
+</a>
+<p>Restaurante campestre donde el mar y el campo se encuentran.</p>
+</div>
+<div class="footer-links">
+<h4>Navegación</h4>
+<a href="#inicio">Inicio</a>
+<a href="#carta">Carta</a>
+<a href="#galeria">Galería</a>
+<a href="#reservas">Reservas</a>
+<a href="#nosotros">Nosotros</a>
+</div>
+<div class="footer-links">
+<h4>Servicios</h4>
+<a href="#galeria">Eventos privados</a>
+<a href="#carta">Catering</a>
+<a href="#carta">Menú ejecutivo</a>
+</div>
+</div>
+<div class="footer-bottom">
+<p>© 2026 Oro Mar — Restaurante Campestre</p>
+
+</div>
+</footer>
+<!-- WHATSAPP FLOAT -->
+
+<!-- ASISTENTE VIRTUAL -->
+
+<!-- TOAST -->
+
+
+
+
+<script defer="True" src="presentacion.js"></script></body>
+</html>

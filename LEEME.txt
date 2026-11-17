@@ -1,0 +1,9 @@
+ORO MAR - PÁGINA WEB INFORMATIVA (ESTÁTICA)
+
+ABRIR: Haz doble clic en index.html. No requiere XAMPP, PHP, MySQL, Supabase ni conexión a una base de datos.
+
+INCLUYE: Inicio, carta con filtros visuales, galería de imágenes, información de visitas, nosotros y contacto.
+
+ELIMINADO: panel administrador, registro de clientes, formularios de reservas y mensajes, comentarios enviados, Supabase, archivos SQL y chatbot.
+
+IMPORTANTE: La carta y los textos se han conservado del proyecto original. Antes de publicar comercialmente, revisa precios, promociones, horarios, dirección y demás información. Las fuentes e iconos externos requieren internet para verse exactamente igual; las imágenes del restaurante son locales.
